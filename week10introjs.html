@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to JavaScript</title>
+  <link rel="stylesheet" href="./week10introJScss.css">
+</head>
+<body >
+  <div class="container">
+    <h1 id="welcome-message"></h1>
+
+    <h1 id="welcome-text" class="fade-in">We are glad you are here</h1>
+    <p class="intro-text">Click the button below to explore the magic of JavaScript!</p>
+    <button id="change-text-btn" onclick="changeText()">Click Me</button>
+    <button id="theme-toggle">Toggle Theme</button>
+    <button id="showModalButton">Show JavaScript Info</button>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>JavaScript: The Language of the Web</h2>
+        <p>JavaScript is a programming language used to create interactive web pages. It can manipulate HTML elements, style CSS, and create dynamic effects.</p>
+        <p>Some of the common uses of JavaScript include:</p>
+        <ul>
+          <li>Form validation</li>
+          <li>Dynamic content updates</li>
+          <li>Asynchronous data fetching</li>
+          <li>Game development</li>
+          <li>And much more!</li>
+        </ul>
+      </div>
+    </div>
+    <button id="getQuoteButton">Get Quote</button>
+<p id="quote"></p>
+<input type="text" id="nameInput" placeholder="Enter your name">
+<button id="greetButton">Greet Me</button>
+<p id="greeting"></p>
+
+  </div>
+
+  
+  <script src="week10 introJS.js"></script>
+</body>
+</html>
